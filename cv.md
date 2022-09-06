@@ -19,3 +19,35 @@ In 2020 I felt a special desire deeply inside me to become a Software Developer.
     + Angular (+ RxJS)
 * Git
 * Figma    
+***
+#### My code example:
+##### Codewars' kata:
+Your function takes two arguments:
+current father's age (years),
+current age of his son (years).
+Calculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old). The answer is always greater or equal to 0, no matter if it was in the past or it is in the future.
+
+##### My solution:
+```
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  if(sonYearsOld < dadYearsOld/2){
+    return dadYearsOld-sonYearsOld*2
+  } else{
+    return sonYearsOld*2-dadYearsOld
+  }
+}
+```
+***
+### Education:
+**Belarussian State University of Informatics and Radioelectronics** <br>
+Faculty of Information Security
+### Courses:
+* iTechArt Students Lab
+* Netcracker educational center <br>
+[My nice project](https://github.com/maxkleshchyonok/PixNet)
+***
+### Languages:
+* English (B2)
+* Russian (native)
+* Belarussian (native)
+* Polish (beginner)
